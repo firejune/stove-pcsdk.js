@@ -1,3 +1,9 @@
+![stovesdk.js — Unofficial Node.js / Electron bindings for the STOVE PC SDK (N-API).](https://raw.githubusercontent.com/Blosharper/stovesdk.js/main/.github/assets/banner.png)
+
+[![npm version](https://img.shields.io/npm/v/stovesdk.js)](https://www.npmjs.com/package/stovesdk.js)
+[![npm downloads](https://img.shields.io/npm/dm/stovesdk.js)](https://www.npmjs.com/package/stovesdk.js)
+[![license](https://img.shields.io/npm/l/stovesdk.js)](LICENSE)
+
 # stovesdk.js
 
 Unofficial Node.js / Electron bindings for the **STOVE PC SDK** (N-API).
