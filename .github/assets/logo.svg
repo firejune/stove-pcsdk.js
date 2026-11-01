@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a1612"/>
+      <stop offset="50%" stop-color="#080b0c"/>
+      <stop offset="100%" stop-color="#180910"/>
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="16" y1="16" x2="240" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00e5a3"/>
+      <stop offset="50%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0" y1="0" x2="0" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34f5c5"/>
+      <stop offset="100%" stop-color="#00b884"/>
+    </linearGradient>
+    <linearGradient id="crimsonGrad" x1="0" y1="0" x2="0" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff5c77"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffe55c"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer contrast shell (visible on both #ffffff and #000000) -->
+  <rect x="4" y="4" width="248" height="248" rx="52" fill="#070a09" stroke="#1e2926" stroke-width="4"/>
+  <rect x="12" y="12" width="232" height="232" rx="44" fill="url(#bgGrad)" stroke="url(#rimGrad)" stroke-width="8"/>
+
+  <!-- Left Hexagon Half (Node.js Emerald) -->
+  <path d="M 128 36 L 48 82 V 174 L 128 220"
+        stroke="url(#emeraldGrad)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right Hexagon Half (Native C++ Addon Crimson) -->
+  <path d="M 128 36 L 208 82 V 174 L 128 220"
+        stroke="url(#crimsonGrad)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Left & Right Socket Terminals -->
+  <circle cx="84" cy="128" r="18" fill="url(#emeraldGrad)"/>
+  <circle cx="172" cy="128" r="18" fill="url(#crimsonGrad)"/>
+  <!-- Center Gold N-API Callback Pulse Bridge -->
+  <path d="M 96 128 H 114 L 122 100 L 134 156 L 142 128 H 160"
+        stroke="url(#goldGrad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
